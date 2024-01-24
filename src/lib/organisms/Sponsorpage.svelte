@@ -26,32 +26,35 @@
   </section>
 
   <div class="sponsorpage-wrapper">
-    <div class="sponsoroptions material">
-      <svg
-        width="1513"
-        height="539"
-        viewBox="0 0 1513 539"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        ><path d="M1513 0 0 69.428v406.284L1513 539V0Z" fill="#FFDA1D" /><path
-          d="M84 142.097c0-8.139 6.49-14.793 14.627-14.995l1316.003-32.72c8.42-.21 15.37 6.565 15.37 14.996V431.46c0 8.492-7.04 15.291-15.53 14.991l-1316-46.535c-8.073-.285-14.47-6.913-14.47-14.99V142.097Z"
-          fill="#FFE356"
-        /></svg
-      >
-      <div class="options-text-wrapper">
-        <h4 class="black">MATERIAL</h4>
-        <p class="black">
-          Sponsor football materials, change the Game! Your generous donation
-          can provide crucial equipment to aspiring athletes. <br />
-          Help us make a difference today.
-        </p>
-        <a href="/payment">
-          <button class="sponsor-button sponsor-page-button green">
-            Choose sponsor
-          </button>
-        </a>
-      </div>
-    </div>
+	<div class="sponsoroptions material">
+		<svg
+		  width="425"
+		  height="151"
+		  viewBox="0 0 1513 539"
+		  fill="none"
+		  xmlns="http://www.w3.org/2000/svg"
+		>
+		  <path d="M1513 0 0 69.428v406.284L1513 539V0Z" fill="#FFDA1D" />
+		  <path
+			d="M84 142.097c0-8.139 6.49-14.793 14.627-14.995l1316.003-32.72c8.42-.21 15.37 6.565 15.37 14.996V431.46c0 8.492-7.04 15.291-15.53 14.991l-1316-46.535c-8.073-.285-14.47-6.913-14.47-14.99V142.097Z"
+			fill="#FFE356"
+		  />
+		</svg>
+		<div class="options-text-wrapper">
+		  <h4 class="black">MATERIAL</h4>
+		  <p class="black">
+			Sponsor football materials, change the Game! Your generous donation can
+			provide crucial equipment to aspiring athletes. <br />
+			Help us make a difference today.
+		  </p>
+		  <a href="/payment">
+			<button class="sponsor-button sponsor-page-button green">
+			  Choose sponsor
+			</button>
+		  </a>
+		</div>
+	  </div>
+	  
 
     <div class="sponsoroptions financial">
       <svg
@@ -174,9 +177,9 @@
 
   .options-text-wrapper {
     position: absolute;
-    top: 20%;
-    left: 18%;
-    width: 60%;
+    top: 17%;
+    left: 8%;
+    width: 80%;
   }
 
   h4 {
@@ -208,8 +211,8 @@
 
   .sponsor-page-button {
     z-index: 3;
-    margin-top: -5%;
-	margin-right: -5%;
+    margin-top: 10%;
+    margin-right: -1%;
 	float: right;
   }
 
@@ -253,7 +256,73 @@
     position: relative;
   }
 
-  @media screen and (max-width: 768px) {
+/* For 1440p screens and above */
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+  .options-text-wrapper {
+    top: 17%;
+  }
+  .sponsor-page-button {
+    margin-top: -1%;
+  }
+}
+
+/* For 1024p screens */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .options-text-wrapper {
+    top: 7%;
+  }
+  .sponsor-page-button {
+    margin-top: 0%;
+  }
+}
+
+/* For 768p screens */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .options-text-wrapper {
+    top: 4%;
+    width: 80%;
+  }
+  p {
+    margin-right: 10em;
+    margin-top: -1em;
+  }
+  .sponsor-page-button {
+    margin-top: -10%;
+  }
+}
+
+/* For 425p screens */
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .options-text-wrapper {
+    top: 4%;
+    width: 80%;
+  }
+  p {
+    margin-right: 10em;
+    margin-top: -1em;
+  }
+  .sponsor-page-button {
+    margin-top: -10%;
+
+  }
+}
+
+/* For 375 screens and below */
+@media only screen and (max-width: 424px) {
+  .options-text-wrapper {
+    top: 4%;
+    width: 80%;
+  }
+  p {
+    margin-right: 10em;
+    margin-top: -1em;
+  }
+  .sponsor-page-button {
+    margin-top: -10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
     section {
       padding: 0 2em; /* Adjust padding for smaller screens */
     }
@@ -270,34 +339,6 @@
     .sponsorpage-span-h2 {
       margin-top: 6em; /* Adjust margin for smaller screens */
     }
+ }
 
-    .options-text-wrapper {
-      top: 15%; /* Adjust position for smaller screens */
-      left: 5%; /* Adjust position for smaller screens */
-      width: 90%; /* Adjust width for smaller screens */
-    }
-
-    p {
-      font-size: 0.9em; /* Adjust font size for smaller screens */
-    }
-
-    h4 {
-      font-size: 1.5em; /* Adjust font size for smaller screens */
-      margin-bottom: 0.5em; /* Adjust margin for smaller screens */
-    }
-
-    .sponsor-button {
-      padding: 0.8em 1.5em; /* Adjust padding for smaller screens */
-    }
-
-    .sponsor-page-button {
-      margin-top: -2%; /* Adjust margin for smaller screens */
-	  margin-left: 50%;
-    }
-
-    .sponsoroptions {
-      margin-bottom: -1em; /* Add margin between sponsor options for smaller screens */
-    }
-
-  }
 </style>
