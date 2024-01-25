@@ -298,11 +298,10 @@
     width: 80%;
   }
   p {
-    margin-right: 10em;
-    margin-top: -1em;
+  visibility: hidden;
   }
   .sponsor-page-button {
-    margin-top: -10%;
+    margin-top: -46%;
 
   }
 }
@@ -310,16 +309,37 @@
 /* For 375 screens and below */
 @media only screen and (max-width: 424px) {
   .options-text-wrapper {
-    top: 4%;
+    top: -21%;
     width: 80%;
   }
   p {
-    margin-right: 10em;
-    margin-top: -1em;
+    visibility: hidden;
   }
   .sponsor-page-button {
-    margin-top: -10%;
+    margin-top: -46%;
+    padding: 13px 3px;
   }
+
+}
+
+/* For 375 screens and below */
+@media only screen and (max-width: 424px) {
+  .options-text-wrapper {
+    top: -13%;
+    width: 80%;
+  }
+  p {
+    visibility: hidden;
+  }
+  .sponsor-page-button {
+    margin-top: -58%;
+    padding: 13px 3px;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
