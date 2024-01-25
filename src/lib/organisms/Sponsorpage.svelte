@@ -309,7 +309,7 @@
 /* For 375 screens and below */
 @media only screen and (max-width: 424px) {
   .options-text-wrapper {
-    top: -21%;
+    top: -23%;
     width: 80%;
   }
   p {
@@ -323,7 +323,7 @@
 }
 
 /* For 375 screens and below */
-@media only screen and (max-width: 424px) {
+@media only screen and (max-width: 320px) {
   .options-text-wrapper {
     top: -13%;
     width: 80%;
