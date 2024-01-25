@@ -1,5 +1,4 @@
 <script>
-  import { Sponsoroptions } from "$lib/index.js";
 </script>
 
 <main>
@@ -47,7 +46,7 @@
 			provide crucial equipment to aspiring athletes. <br />
 			Help us make a difference today.
 		  </p>
-		  <a href="/payment">
+		  <a href="/Payment">
 			<button class="sponsor-Button Sponsor-Page-Button green">
 			  Choose sponsor
 			</button>
@@ -77,7 +76,7 @@
           provide vital financial support to individuals in need. <br />
           Help us make a difference today
         </p>
-        <a href="/payment">
+        <a href="/Payment">
           <button class="sponsor-Button Sponsor-Page-Button">
             Choose sponsor
           </button>
@@ -110,7 +109,7 @@
           essential clothing to those in need.<br />
           Help us make a difference today.
         </p>
-        <a href="/payment">
+        <a href="/Payment">
           <button class="sponsor-Button Sponsor-Page-Button">
             Choose sponsor
           </button>
