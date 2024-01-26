@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 </script>
 
 <main>
@@ -26,7 +27,7 @@
       </a>
     </div>
   </section>
-
+  
   <div class="sponsorPage-Wrapper">
 	<div class="sponsorOptions Material">
 		<svg
@@ -49,16 +50,44 @@
 			provide crucial equipment to aspiring athletes. <br />
 			Help us make a difference today.
 		  </p>
-		  <a href="/Payment">
+		  <a href="{base}/Payment">
 			<button class="sponsor-Button Sponsor-Page-Button green">
 			  Choose sponsor
 			</button>
 		  </a>
 		</div>
 	  </div>
-	  
 
     <div class="sponsorOptions Financial">
+      <div class="sponsorpage-wrapper">
+        <div class="sponsoroptions material">
+          <svg
+            width="1513"
+            height="539"
+            viewBox="0 0 1513 539"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            ><path d="M1513 0 0 69.428v406.284L1513 539V0Z" fill="#FFDA1D" /><path
+              d="M84 142.097c0-8.139 6.49-14.793 14.627-14.995l1316.003-32.72c8.42-.21 15.37 6.565 15.37 14.996V431.46c0 8.492-7.04 15.291-15.53 14.991l-1316-46.535c-8.073-.285-14.47-6.913-14.47-14.99V142.097Z"
+              fill="#FFE356"
+            /></svg
+          >
+          <div class="options-text-wrapper">
+            <h4 class="black">MATERIAL</h4>
+            <p class="black">
+              Sponsor football materials, change the Game! Your generous donation
+              can provide crucial equipment to aspiring athletes. <br />
+              Help us make a difference today.
+            </p>
+            <a href="{base}/payment">
+              <button class="sponsor-button sponsor-page-button green">
+                Choose sponsor
+              </button>
+            </a>
+         </div>
+    </div>
+
+    <div class="sponsoroptions financial">
       <svg
         width="1541"
         height="530"
@@ -79,8 +108,8 @@
           provide vital financial support to individuals in need. <br />
           Help us make a difference today
         </p>
-        <a href="/Payment">
-          <button class="sponsor-Button Sponsor-Page-Button">
+        <a href="{base}/Payment">
+          <button class="sponsor-button sponsor-page-button">
             Choose sponsor
           </button>
         </a>
@@ -112,8 +141,9 @@
           essential clothing to those in need.<br />
           Help us make a difference today.
         </p>
-        <a href="/Payment">
-          <button class="sponsor-Button Sponsor-Page-Button">
+
+        <a href="{base}/Payment">
+          <button class="sponsor-button sponsor-page-button">
             Choose sponsor
           </button>
         </a>
