@@ -112,7 +112,7 @@
 
         #introAbout {
             height: clamp(52em, 74vw, 79em);
-            margin-top: 6em;
+            margin-top: 14em;
         }
 
         article{

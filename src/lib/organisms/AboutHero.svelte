@@ -20,7 +20,7 @@
 <style>
 
     h1 {
-        font-size: 52px;
+        font-size: 7.5em;
     }
 
     .heroAbout {
@@ -64,7 +64,9 @@
 
     .heroAboutWrapper > p {
         width: 80%;
-        padding-bottom: 1em;
+        font-size: 2em;
+        max-width: 30em;
+        padding: 2em;
     }
 
     .btnArrow {
