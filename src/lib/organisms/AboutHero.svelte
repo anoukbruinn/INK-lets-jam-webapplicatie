@@ -37,7 +37,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: clamp(43em, 64vw, 62em);
+        height: clamp(48em, 64vw, 62em);
         opacity: 0.2;
         top: 0;
         left: 0;

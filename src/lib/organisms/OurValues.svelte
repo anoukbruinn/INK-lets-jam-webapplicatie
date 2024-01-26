@@ -64,14 +64,14 @@
     h1 {
         font-size: 50px;
         float: center;
-        padding-top: 3em;
+        padding-top: 1em;
         display: flex;
         justify-content: center;
     }
 
     .values {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         padding: 1em;
     }
 
@@ -85,11 +85,15 @@
     .ourValues {
         background-image: url(/assets/Group-1.png);
         height: 1000px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
     }
 
     .paragraphIntro {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         padding: 2em;
     }
 
@@ -112,6 +116,7 @@
     p {
         font-family: var(--Paragraph-Font);
     }
+
     
     @media (min-width: 48em) {
 
@@ -120,29 +125,33 @@
             padding-left: 10em;
             padding-right: 10em;
             padding-bottom: 5em;
-            height: 1500px;
+            
         }
 
         .values {
-            padding: 9em;
+            padding: 0;
+            justify-content: center;
         }
 
         p {
-            font-size: 35px;
+            font-size: 20px;
+            width: 30em;
         }
 
         h4 {
             font-size: 30px;
+            width: 300px;
         }
 
         .paragraph {
-            width: 1189px;
-            padding-right: 9em;
-        
+            
+            padding-top: 1em;
+           
         }
 
         .line {
-            height: 169px;
+            height: 155px;
+            padding-bottom: 10px;
         }
 
         .paragraphIntro {
@@ -161,5 +170,27 @@
         }
     }
 
+    @media (min-width: 1107px){
+
+        p {
+            font-size: 25px;
+        }
+
+        .line {
+            
+            padding-top: 19px;
+        }
+
+    }
+
+    @media (min-width: 1107px) {
+        .paragraphIntro {
+            padding-top: 5em;
+        }
+
+        .values {
+            padding-top: 5em;
+        }
+    }
     
 </style>
