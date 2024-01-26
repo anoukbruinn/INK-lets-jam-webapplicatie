@@ -23,7 +23,7 @@
 <style>
     .heroPromise {
         width: 100%;
-        height: 50vh;
+        height: 70vh;
         display: block;
         text-align: center;
     }
@@ -55,11 +55,15 @@
 
     .heroPromiseWrapper > h1 {
         color: var(--White);
+        font-size: 7.5em;
+        text-transform: uppercase;
     }
 
     .heroPromiseWrapper > p {
-        width: 80%;
+        width: 30em;
         font-family: var(--Apercu-Font);
+        font-size: 1.2em;
+        padding: 10px;
     }
 
     .btnArrow {
