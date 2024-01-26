@@ -1,7 +1,6 @@
 # INK - First release candidate
 
-<img width="468" alt="Scherm­afbeelding 2024-01-11 om 14 08 21" src="https://github.com/JalalToufik/INK-lets-jam-webapplicatie/assets/112856590/868fa7ff-0189-4c69-a7e7-c8f50795fe76">
-
+<img width="1495" alt="Scherm­afbeelding 2024-01-26 om 21 19 07" src="https://github.com/anoukbruinn/INK-lets-jam-webapplicatie/assets/112856687/0a767667-c64b-44c7-a4ec-22f7216e49c2">
 
 ## Beschrijving :
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
