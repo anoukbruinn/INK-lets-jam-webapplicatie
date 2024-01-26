@@ -13,9 +13,6 @@
 </section>
 
 
-
-
-
 <style>
 h2 {
   font-family: "Kirang Haerang";

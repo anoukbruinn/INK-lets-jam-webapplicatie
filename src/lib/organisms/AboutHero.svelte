@@ -21,6 +21,7 @@
 
     h1 {
         font-size: 7.5em;
+        padding-top: 2em;
     }
 
     .heroAbout {

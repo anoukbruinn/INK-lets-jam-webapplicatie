@@ -50,7 +50,7 @@
       provide crucial equipment to aspiring athletes. <br />
       Help us make a difference today.
       </p>
-      <a href="/Payment">
+      <a href="{base}/Payment">
       <button class="sponsor-Button Sponsor-Page-Button green">
         Choose sponsor
       </button>
@@ -79,7 +79,7 @@
           provide vital financial support to individuals in need. <br />
           Help us make a difference today
         </p>
-        <a href="/Payment">
+        <a href="{base}/Payment">
           <button class="sponsor-Button Sponsor-Page-Button">
             Choose sponsor
           </button>
@@ -112,7 +112,7 @@
           essential clothing to those in need.<br />
           Help us make a difference today.
         </p>
-        <a href="/Payment">
+        <a href="{base}/Payment">
           <button class="sponsor-Button Sponsor-Page-Button">
             Choose sponsor
           </button>
@@ -156,6 +156,8 @@
       font-family: var(--Header-Font);
       font-size: 7.5em;
       padding: .5em;
+      text-transform: uppercase;
+
       color: var(--White);
     }
   
@@ -268,6 +270,7 @@
     .inner {
       min-height: 600px;
       position: relative;
+      margin-bottom: 12em;
     }
  
   /* For 1440p screens and above */

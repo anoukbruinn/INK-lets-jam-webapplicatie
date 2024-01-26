@@ -36,12 +36,12 @@
 <style>
 
 
-/* h3, */
-/* p {
+
+h3 {
   font-family: "Kirang Haerang";
   color: black;
   font-size: 1.5em;
-} */
+}
 
 
 .carrouselSection {

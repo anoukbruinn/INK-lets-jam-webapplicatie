@@ -66,6 +66,7 @@
 			.introPromise {
 				background-image: url(/assets/BlueBackground1920x1080.png);
 				background-size: contain;
+				margin-top: 6em;
 			}
 			.introPromise > p {
 				width: 26em;
@@ -74,7 +75,7 @@
 
 		@media only screen and (min-width: 640px) { 
 			.introPromise {
-				background-size: contain;
+				background-size: cover;
 				height: 100vh;
 			}
 			.introPromise > p {

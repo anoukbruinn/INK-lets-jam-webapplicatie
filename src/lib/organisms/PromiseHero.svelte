@@ -34,7 +34,7 @@
         background: url(/assets/PromiseHeroImg800x1200.webp);
         background-position: center;
         background-size: cover;
-        opacity: 0.5;
+        opacity: 0.2;
         top: 0;
         left: 0;
         bottom: 0;
@@ -62,8 +62,8 @@
     .heroPromiseWrapper > p {
         width: 30em;
         font-family: var(--Apercu-Font);
-        font-size: 1.2em;
-        padding: 10px;
+        font-size: 2em;
+        padding: 1em;
     }
 
     .btnArrow {
