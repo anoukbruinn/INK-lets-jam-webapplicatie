@@ -7,6 +7,9 @@
       <h2 class="sponsorPage-Span-h2">
         Become a <span class="yellow">sponsor</span>
       </h2>
+      <p class="hero-Text">
+        Join us in our mission to empower dreams through soccer. Your support will help us provide a brighter future for children in Brazil.
+      </p>
       <a href="#sponsorPage">
         <svg
           class="arrow"
@@ -137,7 +140,7 @@
   }
 
   h2 {
-    font-family: var(--Paragraph-Font);
+    font-family: var(--Header-Font);
     font-size: 5.5em;
     color: var(--White);
   }
@@ -149,6 +152,12 @@
   p {
     font-family: var(--Apercu-Font);
     font-size: 1em;
+    color: var(--White);
+  }
+
+  .hero-Text {
+    font-family: var(--Apercu-Font);
+    font-size: 2em;
     color: var(--White);
   }
 
@@ -242,6 +251,7 @@
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    margin-bottom: -10%;
   }
 
   .hero {
