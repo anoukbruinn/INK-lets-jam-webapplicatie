@@ -1,13 +1,13 @@
 <script>
 	import { base } from '$app/paths';
 </script>
- 
+
 <main>
   <section id="hero1" class="hero">
     <div class="inner">
-      <h2 class="sponsorPage-Span-h2">
+      <h1>
         Become a <span class="yellow">sponsor</span>
-      </h2>
+      </h1>
       <p class="hero-Text">
         Join us in our mission to empower dreams through soccer. Your support will help us provide a brighter future for children in Brazil.
       </p>
@@ -27,7 +27,7 @@
       </a>
     </div>
   </section>
- 
+
   <div class="sponsorPage-Wrapper">
   <div class="sponsorOptions Material">
     <svg
@@ -57,8 +57,7 @@
       </a>
     </div>
     </div>
-   
- 
+
     <div class="sponsorOptions Financial">
       <svg
         width="1541"
@@ -105,7 +104,7 @@
           fill="#1F4F4F"
         />
       </svg>
- 
+
       <div class="options-Text-Wrapper">
         <h4>CLOTHING</h4>
         <p>
@@ -122,284 +121,279 @@
     </div>
   </div>
 </main>
- 
-<style>
-  /* Common styles for all screen sizes */
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
- 
-  section {
-    padding: 0 6em;
-    overflow: hidden;
-  }
- 
-  .arrow {
-    fill: var(--Yellow-Primary);
-  }
- 
-  h2 {
-    font-family: var(--Header-Font);
-    font-size: 5.5em;
-    color: var(--White);
-  }
- 
-  .sponsorPage-Span-h2 {
-    margin-top: 4em;
-  }
- 
-  p {
-    font-family: var(--Apercu-Font);
-    font-size: 1em;
-    color: var(--White);
-  }
 
-  .hero-Text {
-    font-family: var(--Apercu-Font);
-    font-size: 2em;
-    color: var(--White);
-  }
- 
-  .yellow {
-    color: var(--Yellow-Primary);
-  }
- 
-  .sponsorPage-Wrapper {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-  }
- 
-  .sponsorOptions {
-    position: relative;
-  }
- 
-  .Material svg,
-  .Financial svg,
-  .Clothing svg {
-    position: relative;
-    width: 100%;
-  height: auto;
-}
- 
-  .options-Text-Wrapper {
-    position: absolute;
-    top: 17%;
-    left: 8%;
-    width: 80%;
-  }
- 
-  h4 {
-    font-size: 2em;
-    font-family: var(--Paragraph-Font);
-    margin-bottom: 1em;
-  margin-top: 2em;
-  }
- 
-  .sponsor-Button {
-    text-decoration: none;
-    color: var(--Charcoal);
-    background-color: var(--Yellow-Primary);
-    font-family: var(--Apercu-Font);
-    font-weight: bold;
-    border: none;
-    border-radius: 3em;
-    padding: 1em 2em;
-    text-transform: uppercase;
-    transition: 0.2s;
-    cursor: pointer;
-  margin-bottom: 3em;
-  }
- 
-  .sponsor-Button:hover {
-    background-color: var(--White);
-    color: var(--Charcoal);
-  }
- 
-  .Sponsor-Page-Button {
-    z-index: 3;
-    margin-top: 10%;
-    margin-right: -1%;
-  float: right;
-  }
- 
-  .black {
-    color: var(--Charcoal);
-  }
- 
-  .green {
-    background-color: var(--White);
-    color: var(--Charcoal);
-  }
- 
-  .green:hover {
-    background-color: var(--Blue-Secondary);
-    color: var(--White);
-  }
- 
-  *,
-  *:after,
-  *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
- 
-  #hero1 {
-    background-image: url("/assets/brasilvoetbalveld.png");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    margin-bottom: -10%;
-  }
- 
-  .hero {
-    text-align: center;
-    position: relative;
-    width: 100%;
-  }
- 
-  .inner {
-    min-height: 600px;
-    position: relative;
-  }
- 
-/* For 1440p screens and above */
-@media only screen and (min-width: 1440px) and (max-width: 2559px) {
-  .options-Text-Wrapper {
-    top: 17%;
-  }
-  .Sponsor-Page-Button {
-    margin-top: -1%;
-  }
-}
- 
-/* For 1024p screens */
-@media only screen and (min-width: 1024px) and (max-width: 1439px) {
-  .options-Text-Wrapper {
-    top: 7%;
-  }
-  .Sponsor-Page-Button {
-    margin-top: 0%;
-  }
-}
- 
-/* For 768p screens */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .options-Text-Wrapper {
-    top: 4%;
-    width: 80%;
-  }
-  p {
-    margin-right: 10em;
-    margin-top: -1em;
-  }
-  .Sponsor-Page-Button {
-    margin-top: -10%;
-  }
-}
- 
-/* For 593p screens */
-@media only screen and (min-width: 593px) and (max-width: 768px) {
-  .options-Text-Wrapper {
-    top:-6%;
-    width: 80%;
-  }
-  p {
-    margin-right: 10em;
-    margin-top: -1em;
-  }
-  .Sponsor-Page-Button {
-    margin-top: -14%;
-  }
-}
- 
-/* For 425p screens */
-@media only screen and (min-width: 500px) and (max-width: 593px) {
-  .options-Text-Wrapper {
-    top: 4%;
-    width: 80%;
-  }
-  p {
-  visibility: hidden;
-  }
-  .Sponsor-Page-Button {
-    margin-top: -32%;
- 
-  }
-}
- 
-/* For 425p screens */
-@media only screen and (min-width: 425px) and (max-width: 500px) {
-  .options-Text-Wrapper {
-    top: 4%;
-    width: 80%;
-  }
-  p {
-  visibility: hidden;
-  }
-  .Sponsor-Page-Button {
-    margin-top: -46%;
- 
-  }
-}
- 
-/* For 375 screens and below */
-@media only screen and (max-width: 424px) {
-  .options-Text-Wrapper {
-    top: -23%;
-    width: 80%;
-  }
-  p {
-    visibility: hidden;
-  }
-  .Sponsor-Page-Button {
-    margin-top: -46%;
-    padding: 13px 3px;
-  }
- 
-}
- 
-/* For 375 screens and below */
-@media only screen and (max-width: 320px) {
-  .options-Text-Wrapper {
-    top: -13%;
-    width: 80%;
-  }
-  p {
-    visibility: hidden;
-  }
-  .Sponsor-Page-Button {
-    margin-top: -58%;
-    padding: 13px 3px;
-  }
- 
-  h4 {
-    font-size: 1.5em;
-  }
- 
-}
- 
-@media screen and (max-width: 768px) {
-    section {
-      padding: 0 2em; /* Adjust padding for smaller screens */
+<style>
+    /* Common styles for all screen sizes */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
- 
+  
+    section {
+      padding: 0 6em;
+      overflow: hidden;
+    }
+      
+    #hero1 {
+      background-image: url(/assets/brasilvoetbalveld.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-position-y: 0em;
+      background-position-x: -10em;
+      height: clamp(16em, 155vw, 65em);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .arrow {
+      fill: var(--Yellow-Primary);
+    }
+  
+    h1 {
+      font-family: var(--Header-Font);
+      font-size: 7.5em;
+      padding: .5em;
+      color: var(--White);
+    }
+  
+    p {
+      font-family: var(--Apercu-Font);
+      font-size: 1.1em;
+      padding: 1em;
+      max-width: 30em;
+      color: var(--White);
+    }
+
+    .hero-Text {
+      font-family: var(--Apercu-Font);
+      font-size: 2em;
+      color: var(--White);
+    }
+  
+    .yellow {
+      color: var(--Yellow-Primary);
+    }
+  
+    .sponsorPage-Wrapper {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .sponsorOptions {
+      position: relative;
+    }
+  
+    .Material svg,
+    .Financial svg,
+    .Clothing svg {
+      position: relative;
+      width: 100%;
+      height: auto;
+  }
+  
+    .options-Text-Wrapper {
+      position: absolute;
+      top: 17%;
+      left: 8%;
+      width: 80%;
+    }
+  
+    h4 {
+      font-size: 2em;
+      font-family: var(--Paragraph-Font);
+      margin-bottom: 1em;
+      margin-top: 2em;
+    }
+  
+    .sponsor-Button {
+      text-decoration: none;
+      color: var(--Charcoal);
+      background-color: var(--Yellow-Primary);
+      font-family: var(--Apercu-Font);
+      font-weight: bold;
+      border: none;
+      border-radius: 3em;
+      padding: 1em 2em;
+      text-transform: uppercase;
+      transition: 0.2s;
+      cursor: pointer;
+    margin-bottom: 3em;
+    }
+  
+    .sponsor-Button:hover {
+      background-color: var(--White);
+      color: var(--Charcoal);
+    }
+  
+    .Sponsor-Page-Button {
+      z-index: 3;
+      margin-top: 10%;
+      margin-right: -1%;
+      float: right;
+    }
+  
+    .black {
+      color: var(--Charcoal);
+    }
+  
+    .green {
+      background-color: var(--White);
+      color: var(--Charcoal);
+    }
+  
+    .green:hover {
+      background-color: var(--Blue-Secondary);
+      color: var(--White);
+    }
+  
+    *,
+    *:after,
+    *:before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+  
     .hero {
       text-align: center;
-      padding: 2em 0; /* Adjust padding for smaller screens */
+      position: relative;
+      width: 100%;
+    }
+  
+    .inner {
+      min-height: 600px;
+      position: relative;
     }
  
-    h2 {
-      font-size: 3em; /* Adjust font size for smaller screens */
+  /* For 1440p screens and above */
+  @media only screen and (min-width: 1440px) and (max-width: 2559px) {
+    .options-Text-Wrapper {
+      top: 17%;
     }
- 
-    .sponsorPage-Span-h2 {
-      margin-top: 6em; /* Adjust margin for smaller screens */
+    .Sponsor-Page-Button {
+      margin-top: -1%;
     }
- }
- 
+  }
+
+  /* For 1024p screens */
+  @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .options-Text-Wrapper {
+      top: 7%;
+    }
+    .Sponsor-Page-Button {
+      margin-top: 0%;
+    }
+  }
+
+  /* For 768p screens */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .options-Text-Wrapper {
+      top: 4%;
+      width: 80%;
+    }
+    p {
+      margin-right: 10em;
+      margin-top: -1em;
+    }
+    .Sponsor-Page-Button {
+      margin-top: -10%;
+    }
+  }
+
+  /* For 593p screens */
+  @media only screen and (min-width: 593px) and (max-width: 768px) {
+    .options-Text-Wrapper {
+      top:-6%;
+      width: 80%;
+    }
+    p {
+      margin-right: 10em;
+      margin-top: -1em;
+    }
+    .Sponsor-Page-Button {
+      margin-top: -14%;
+    }
+  }
+
+  /* For 425p screens */
+  @media only screen and (min-width: 500px) and (max-width: 593px) {
+    .options-Text-Wrapper {
+      top: 4%;
+      width: 80%;
+    }
+    p {
+    visibility: hidden;
+    }
+    .Sponsor-Page-Button {
+      margin-top: -32%;
+  
+    }
+  }
+
+/* For 425p screens */
+@media only screen and (min-width: 425px) and (max-width: 500px) {
+    .options-Text-Wrapper {
+      top: 4%;
+      width: 80%;
+    }
+    p {
+    visibility: hidden;
+    }
+    .Sponsor-Page-Button {
+      margin-top: -46%;
+
+    }
+  }
+  
+  /* For 375 screens and below */
+  @media only screen and (max-width: 424px) {
+    .options-Text-Wrapper {
+      top: -23%;
+      width: 80%;
+    }
+    p {
+      visibility: hidden;
+    }
+    .Sponsor-Page-Button {
+      margin-top: -46%;
+      padding: 13px 3px;
+    }
+  }
+
+  /* For 375 screens and below */
+  @media only screen and (max-width: 320px) {
+    .options-Text-Wrapper {
+      top: -13%;
+      width: 80%;
+    }
+    p {
+      visibility: hidden;
+    }
+    .Sponsor-Page-Button {
+      margin-top: -58%;
+      padding: 13px 3px;
+    }
+  
+    h4 {
+      font-size: 1.5em;
+    }
+  
+  }
+
+  @media screen and (max-width: 768px) {
+      section {
+        padding: 0 2em; /* Adjust padding for smaller screens */
+      }
+  
+      .hero {
+        text-align: center;
+        padding: 2em 0; /* Adjust padding for smaller screens */
+      }
+  }
+  
 </style>
- 
