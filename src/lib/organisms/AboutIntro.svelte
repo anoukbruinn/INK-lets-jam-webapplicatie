@@ -70,11 +70,13 @@
         padding-top: 0.6em;
     }
 
+   
+
     @media (min-width: 48em) {
 
         .introAbout {
-            background-image: url(/assets/Group-168.svg);
-            background-size:cover;
+            background-image: url(/assets/Group-171.svg);
+            background-size:contain;
             background-repeat: no-repeat;
             display: flex;
             height: 1158px;
@@ -120,6 +122,8 @@
             width: 37em;
         }
     }
+
+    
 
 </style>
 
