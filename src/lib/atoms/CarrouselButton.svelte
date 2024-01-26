@@ -1,6 +1,7 @@
-<script>
+<!-- <script>
  import { currentPosition, prevBtn, nextBtn } from '$lib/cardCarrousel';
-
+ import cards from "$lib/molecules/CardCarrousel.svelte";
+ 
 </script>
         
 
@@ -43,4 +44,4 @@
 
  
  
-</style>
+</style> -->

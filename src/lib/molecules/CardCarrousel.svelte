@@ -6,7 +6,7 @@
   import { CarrouselButton } from '$lib/index.js';
 
   // carrouselcontent 
-  const cards = [
+  export const cards = [
       { image: 'image 252.jpeg', title: 'Young football prospects in Brazil juggle success, education, and family.' },
       { image: 'image 253.jpeg', title: 'The Brazilian youth championship attracts scouts from global clubs.' },
       { image: 'image 254.jpeg', title: 'Talented youths dream of a football career in Brazil, a national passion.' },
@@ -23,12 +23,12 @@
               <img src={`${base}/assets/${card.image}`}  loading="lazy" alt="children playing">
           </div>
           <h3>{card.title}</h3>
-          <p>Read more</p>
+          <!-- <p>Read more</p> -->
       </article>
   {/each}
 </section>
 
-<CarrouselButton />
+<!-- <CarrouselButton /> -->
 
 
 
